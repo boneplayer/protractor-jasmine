@@ -1,0 +1,31 @@
+{
+  "name": "gurukula-automation",
+  "version": "1.0.0",
+  "description": "To automate e2e scenarious of gurukula",
+  "main": "index.js",
+  "scripts": {
+    "start": "java -jar ./app/gurukula-0.0.1-SNAPSHOT.war",
+    "test": "protractor ./protractor.conf.js",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start"
+  },
+  "keywords": [
+    "protractor",
+    "typescript",
+    "jasmine"
+  ],
+  "author": "Yogesh Kalbhore <yogeshkalbhore@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "@types/jasminewd2": "^2.0.3",
+    "@types/node": "^10.9.4",
+    "jasmine": "^3.2.0",
+    "protractor": "^5.4.1",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.0.3"
+  }
+}
